@@ -1,50 +1,114 @@
 # 📊 Sales Data Analysis Using Pandas
 
-## Project Overview
+## 📌 Project Overview
 
-This project demonstrates basic data analysis using Python and the Pandas library. A sales dataset is loaded from a CSV file and analyzed to understand its structure, check for missing values, and calculate basic statistics.
+This project demonstrates basic data analysis using Python and the Pandas library. A sales dataset is loaded from a CSV file and analyzed to generate useful business insights. The project includes data exploration, data cleaning, statistical calculations, and sales performance analysis.
 
-## Objectives
+---
 
-* Read data from a CSV file
-* Explore dataset structure
-* Check rows, columns, and data types
-* Identify missing values
-* Calculate average, maximum, and minimum values
+## 🎯 Objectives
 
-## Technologies Used
+* Read data from a CSV file using Pandas
+* Explore dataset structure and information
+* Identify and handle missing values
+* Remove duplicate records
+* Calculate important sales metrics
+* Generate a clean and formatted analysis report
 
-* Python
-* Pandas
+---
 
-## Setup Instructions
+## 🛠️ Technologies Used
 
-1. Install Python
-2. Install pandas:
+* Python 3
+* Pandas Library
+
+---
+
+## 📂 Project Structure
+
+```text
+task 3/
+│
+├── sales_analysis.py
+├── sales_data.csv
+├── analysis_report.md
+├── requirements.txt
+├── README.MD
+│
+└── screenshot/
+    ├── screenshot1.png
+    ├── screenshot2.png
+    ├── screenshot3.png
+    └── screenshot4.png
+```
+
+---
+
+## ⚙️ Installation
+
+Install Pandas:
 
 ```bash
 pip install pandas
 ```
 
-3. Run the program:
+---
+
+## ▶️ Run the Project
 
 ```bash
-python data_analysis.py
+python sales_analysis.py
 ```
 
-## Features
+---
 
-* Display first 5 rows
-* Show dataset information
-* Count rows and columns
-* Check missing values
-* Calculate average values
-* Find highest and lowest values
+## 📊 Analysis Performed
 
-## What I Learned
+The project calculates:
 
-* Working with CSV files
-* Using Pandas Data Frames
-* Data exploration
-* Data cleaning basics
+* Total Revenue
+* Total Quantity Sold
+* Average Sale Value
+* Best-Selling Product
+* Highest Revenue Product
+* Top Performing Region
+
+---
+
+## 📈 Sample Results
+
+* Total Revenue: ₹12,365,048
+* Total Quantity Sold: 478
+* Average Sale Value: ₹123,650.48
+* Best-Selling Product: Laptop
+* Highest Revenue Product: Laptop
+* Top Performing Region: North
+
+---
+
+## 📸 Screenshots
+
+Screenshots of the program output are available in the **screenshot** folder.
+
+---
+
+## 📚 What I Learned
+
+* Working with CSV files using Pandas
+* Data exploration and cleaning
+* Finding missing values
 * Statistical analysis
+* Generating business insights from data
+* Creating structured project reports
+
+---
+
+## ✅ Project Status
+
+Completed Successfully
+
+---
+
+## 👨‍💻 Author
+
+Lokesh Rawat
